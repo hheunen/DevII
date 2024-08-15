@@ -2,6 +2,7 @@ import os
 from file_reader import file_reader 
 from repertory import Repertory
 from watchdog_handler import WatchdogHandler
+from csv_manager import CSVManager
 
 
 def cls():
@@ -12,11 +13,14 @@ def cls():
 def test1(dir_name):
     print("Testing 1")
     print("---------")
+    csv_manager = CSVManager()
+
     dossier1=Repertory(dir_name)
     dossier1.read_directory()
     print(dossier1.file_path_list)
+
     for file in dossier1.file_path_list:
-        file=file_reader(file)
+        file=file_reader(file, csv_manager)
         file.open_file()
         print("----------")
         if file.metadata:
@@ -30,7 +34,7 @@ def test1(dir_name):
 
 
 if __name__ == "__main__":
-    cls()  # Efface la console
+    cls()   #Efface la console
 
     path='factures'
     test1(path)
@@ -38,4 +42,4 @@ if __name__ == "__main__":
 
     watcher=WatchdogHandler(path)
     watcher.start()
-    
+   

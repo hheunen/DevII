@@ -4,7 +4,21 @@ import os
 
 class Metadata:
 
-    def __init__(self,name,created_date,modification_date,size):
+    def __init__(self,file_path,name,created_date,modification_date,size):
+        """
+        Initialise une instance de Metadata avec les infos fournies
+
+        PRE:
+        -`file_path` est une chaîne représentant le chemin complet du fichier
+        -`name` est une chaîne représentant le nom du fichier
+        -`size` est un entier représentant la taille du fichier en octets
+
+        POST:
+        -Les attributs de Metadata sont correctement initialisés.
+
+        """
+
+        self.file_path = file_path  #chemin du fichier
         self.name=name
         self.created_date=created_date
         self.modification_date=modification_date
@@ -16,7 +30,17 @@ class Metadata:
     # Dans ce cas-ci cette méthode retourne un nouvelle instance de Metadata
     @classmethod
     def from_filepath(cls, file_path):
-        """Crée une instance de Metadata à partir d'un chemin de fichier."""
+        """Crée une instance de Metadata à partir d'un chemin de fichier.
+
+        PRE:
+        -`file_path` est une chaîne représentant le chemin complet du fichier
+
+
+        POST:
+        -Retourne une instance de Metadata avec les métadonnées du fichier
+        -En cas d'erreur (fichier introuvable), retourne None
+         
+        """
         try:
             # Obtenir les statistiques du fichier
             file_stats = os.stat(file_path)
@@ -34,8 +58,15 @@ class Metadata:
             size = file_stats.st_size
 
             # Retourne une instance de Metadata
-            return cls(name, created_date, modification_date, size)
+            return cls(file_path, name, created_date, modification_date, size)
 
         except FileNotFoundError:
             print(f"Erreur : Le fichier '{file_path}' est introuvable.")
             return None
+
+    def save_to_csv(self, csv_manager):
+        csv_manager.write_metadata(self)
+
+
+    def update_in_csv(self, csv_manager):
+        csv_manager.update_metadata(self)
