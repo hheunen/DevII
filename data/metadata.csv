@@ -1,5 +1,6 @@
-Pathname,Name,Created Date,Modification Date,Size
-factures\facture1,facture1,2024-08-15 09:41:12.245693,2024-08-15 09:41:12.245693,42
-factures\facture1.txt,facture1.txt,2024-08-15 09:41:12.245693,2024-08-15 09:41:12.246698,42
-factures\facture2,facture2,2024-08-15 09:41:12.246698,2024-08-15 09:41:12.246698,35
-factures\qdsfsdg,qdsfsdg,2024-08-15 09:41:12.246698,2024-08-15 09:41:12.246698,7
+Pathname;Name;Created Date;Modification Date;Size
+factures\facture1;facture1;15/08/2024 09:41;15/08/2024 09:41;42
+factures\facture1.txt;facture1.txt;15/08/2024 09:41;15/08/2024 09:41;42
+factures\facture2;facture2;15/08/2024 09:41;15/08/2024 09:41;35
+factures\qdsfsdg;qdsfsdg;15/08/2024 09:41;15/08/2024 09:41;7
+test_file.txt;test_file.txt;15/08/2024 11:53;15/08/2024 11:53;9

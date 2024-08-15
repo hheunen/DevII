@@ -24,7 +24,6 @@ class Metadata:
         self.modification_date=modification_date
         self.size=size
 
-    
     # ici c'est une CLASSMETHOD, cela implique que cette méthode n'est pas dépendante d'une instance de la classe.
     # On peut l'appeler sans utiliser une instance d'objet déjà créee !
     # Dans ce cas-ci cette méthode retourne un nouvelle instance de Metadata

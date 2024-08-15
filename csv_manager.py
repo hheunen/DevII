@@ -17,14 +17,14 @@ class CSVManager:
         self.csv_path = csv_path #chemin du fichier CSV
         # Vérifie si le fichier CSV existe, sinon le crée
         if not os.path.isfile(self.csv_path):
-            with open(self.csv_path, mode='w', newline='') as file:
-                writer = csv.writer(file)
+            with open(self.csv_path, mode='w', newline='', encoding='utf-8') as file:
+                writer = csv.writer(file, delimiter=',')
                 writer.writerow(['Pathname', 'Name', 'Created Date', 'Modification Date', 'Size'])
 
     def write_metadata(self, metadata):
         """Écrit une nouvelle ligne de métadonnées dans le fichier CSV."""
-        with open(self.csv_path, mode='a', newline='') as file:
-            writer = csv.writer(file)
+        with open(self.csv_path, mode='a', newline='', encoding='utf-8') as file:
+            writer = csv.writer(file, delimiter=',')
             writer.writerow([
                 metadata.file_path,
                 metadata.name,
@@ -43,12 +43,13 @@ class CSVManager:
         POST:
         -Le fichier CSV est mis à jour avec les nouvelles métadonnées
         -Si le fichier est trouvé, les données existantes sont mises à jour
+
         """
 
         rows = []
         updated = False
         #Lit les lignes du CSV
-        with open(self.csv_path, mode='r', newline='') as file:
+        with open(self.csv_path, mode='r', newline='', encoding='utf-8') as file:
             reader = csv.DictReader(file)
             #parcours chaque ligne pour voir si le fichier existe
             for row in reader:
@@ -62,7 +63,7 @@ class CSVManager:
                 rows.append(row)
 
         # Réécriture du fichier CSV avec les nouvelles métadonnées mises à jour
-        with open(self.csv_path, mode='w', newline='') as file:
+        with open(self.csv_path, mode='w', newline='', encoding='utf-8') as file:
             writer = csv.DictWriter(file, fieldnames=['Pathname', 'Name', 'Created Date', 'Modification Date', 'Size'])
             writer.writeheader()
             writer.writerows(rows)
@@ -72,7 +73,7 @@ class CSVManager:
 
     def find_metadata(self, file_path):
         """Recherche les métadonnées d'un fichier dans le CSV."""
-        with open(self.csv_path, mode='r', newline='') as file:
+        with open(self.csv_path, mode='r', newline='', encoding='utf-8') as file:
             reader = csv.DictReader(file)
             for row in reader:
                 if row['Pathname'] == file_path:

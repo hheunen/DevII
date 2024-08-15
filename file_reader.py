@@ -1,6 +1,6 @@
 from metadata import Metadata
 from csv_manager import CSVManager
-
+import os
 
 class file_reader:
 
@@ -36,20 +36,26 @@ class file_reader:
         - En cas d'erreur, un message d'erreur est affiché
         """
 
-        try:
-            # Essaie d'ouvrir le fichier en mode lecture, si il n'y a pas d'erreur le programme passe a la ligne suivante
-            self.file = open(self.file_path, mode) 
-            # Flag pour indiquer si le fichier est ouvert ou non
-            self.file_state = True
-            # Méthode pour extraire les dites métadonnées (méthode définie a la ligne 30)
-            self.extract_metadata()
+        if not os.path.isfile(self.file_path):
+            print(f"Erreur : Le fichier '{self.file_path}' est introuvable.")
+            return
 
-            if self.metadata:
-                existing_metadata = self.csv_manager.find_metadata(self.file_path)
-                if existing_metadata:
-                    self.metadata.update_in_csv(self.csv_manager)
-                else:
-                    self.metadata.save_to_csv(self.csv_manager)
+        try:
+            with open(self.file_path, mode) as file:
+
+                # Essaie d'ouvrir le fichier en mode lecture, si il n'y a pas d'erreur le programme passe a la ligne suivante
+                #self.file = file
+                # Flag pour indiquer si le fichier est ouvert ou non
+                self.file_state = True
+                # Méthode pour extraire les dites métadonnées (méthode définie a la ligne 30)
+                self.extract_metadata()
+
+                if self.metadata:
+                    existing_metadata = self.csv_manager.find_metadata(self.file_path)
+                    if existing_metadata:
+                        self.metadata.update_in_csv(self.csv_manager)
+                    else:
+                        self.metadata.save_to_csv(self.csv_manager)
 
         # Gestion d'erreur    
         except FileNotFoundError:
@@ -70,6 +76,11 @@ class file_reader:
         - Un message d'erreur est affiché si le fichier n'est pas ouvert
         """
         if self.file_state:
-            self.metadata = Metadata.from_filepath(self.file_path)
+            if os.path.isfile(self.file_path):
+                self.metadata = Metadata.from_filepath(self.file_path)
+            else:
+                print(f"Erreur : Le fichier '{self.file_path}' est introuvable.")
+                self.metadata = None
+
         else:
             print("Erreur : le fichier doit être ouvert pour extraire les métadonnées")

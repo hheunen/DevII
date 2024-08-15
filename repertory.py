@@ -20,5 +20,3 @@ class Repertory:
             print(f"Erreur : Permissions insuffisantes pour lire le répertoire '{self.path}'.")
         except Exception as e:
             print(f"Une erreur inattendue est survenue : {e}")
-
-    
