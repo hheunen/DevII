@@ -294,3 +294,45 @@
 2024-08-16 14:52:22,531 - INFO - File factures\facture1 has been modified and metadata updated
 2024-08-16 14:52:30,437 - INFO - File factures\fqsdf.txt has been deleted, removing from CSV.
 2024-08-16 14:52:54,298 - INFO - Fichier CSV supprimé: data/metadata.csv
+2024-08-16 18:13:33,758 - INFO - Creation de file_reader pour le fichier: invalid_file.txt
+2024-08-16 18:13:33,760 - ERROR - Fichier introuvable lors de l extraction des metadonnees: invalid_file.txt
+2024-08-16 18:13:33,761 - INFO - Creation de file_reader pour le fichier: test_file.txt
+2024-08-16 18:13:33,764 - INFO - Metadonnees extraites pour le fichier: test_file.txt
+2024-08-16 18:13:33,764 - INFO - Metadonnees enregistrees pour le fichier: test_file.txt
+2024-08-16 18:13:33,765 - INFO - Metadonnees extraites pour le fichier: test_file.txt
+2024-08-16 18:13:33,765 - INFO - Creation de file_reader pour le fichier: invalid_file.txt
+2024-08-16 18:13:33,766 - ERROR - Fichier introuvable: invalid_file.txt
+2024-08-16 18:13:33,767 - INFO - Creation de file_reader pour le fichier: test_file.txt
+2024-08-16 18:13:33,767 - INFO - Metadonnees extraites pour le fichier: test_file.txt
+2024-08-16 18:13:33,771 - INFO - Metadonnees mises a jour pour le fichier: test_file.txt
+2024-08-16 18:50:49,083 - INFO - Creation de file_reader pour le fichier: factures\facture1
+2024-08-16 18:50:49,089 - INFO - Metadonnees extraites pour le fichier: factures\facture1
+2024-08-16 18:50:49,087 - INFO - Creation de file_reader pour le fichier: factures\facture1
+2024-08-16 18:50:49,089 - INFO - Metadonnees enregistrees pour le fichier: factures\facture1
+2024-08-16 18:50:49,089 - INFO - File factures\facture1 has been modified and metadata updated
+2024-08-16 18:50:49,089 - INFO - Metadonnees extraites pour le fichier: factures\facture1
+2024-08-16 18:50:49,090 - INFO - Creation de file_reader pour le fichier: factures\facture1
+2024-08-16 18:50:49,090 - INFO - Metadonnees extraites pour le fichier: factures\facture1
+2024-08-16 18:50:49,094 - INFO - Metadonnees mises a jour pour le fichier: factures\facture1
+2024-08-16 18:50:49,094 - INFO - File factures\facture1 has been modified and metadata updated
+2024-08-16 18:51:01,676 - INFO - Creation de file_reader pour le fichier: factures\facture2
+2024-08-16 18:51:01,677 - INFO - Metadonnees extraites pour le fichier: factures\facture2
+2024-08-16 18:51:01,678 - INFO - Metadonnees enregistrees pour le fichier: factures\facture2
+2024-08-16 18:51:01,678 - INFO - File factures\facture2 has been modified and metadata updated
+2024-08-16 18:51:10,121 - INFO - Creation de file_reader pour le fichier: factures\azfrf.txt
+2024-08-16 18:51:10,121 - ERROR - Fichier introuvable: factures\azfrf.txt
+2024-08-16 18:51:10,121 - INFO - File factures\azfrf.txt has been created and metadata added
+2024-08-16 18:51:10,128 - INFO - File factures\azfrf.txt was deleted but not found in CSV.
+2024-08-16 18:51:10,276 - INFO - Creation de file_reader pour le fichier: factures\azfrf.txt
+2024-08-16 18:51:10,276 - INFO - Metadonnees extraites pour le fichier: factures\azfrf.txt
+2024-08-16 18:51:10,277 - INFO - Metadonnees enregistrees pour le fichier: factures\azfrf.txt
+2024-08-16 18:51:10,277 - INFO - File factures\azfrf.txt has been created and metadata added
+2024-08-16 18:51:10,287 - INFO - Creation de file_reader pour le fichier: factures\azfrf.txt
+2024-08-16 18:51:10,291 - INFO - Metadonnees extraites pour le fichier: factures\azfrf.txt
+2024-08-16 18:51:10,297 - INFO - Metadonnees mises a jour pour le fichier: factures\azfrf.txt
+2024-08-16 18:51:10,297 - INFO - File factures\azfrf.txt has been modified and metadata updated
+2024-08-16 18:51:10,297 - INFO - Creation de file_reader pour le fichier: factures\azfrf.txt
+2024-08-16 18:51:10,297 - INFO - Metadonnees extraites pour le fichier: factures\azfrf.txt
+2024-08-16 18:51:10,303 - INFO - Metadonnees mises a jour pour le fichier: factures\azfrf.txt
+2024-08-16 18:51:10,303 - INFO - File factures\azfrf.txt has been modified and metadata updated
+2024-08-16 18:51:17,682 - INFO - File factures\azfrf.txt has been deleted, removing from CSV.

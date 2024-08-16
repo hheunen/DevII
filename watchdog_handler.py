@@ -124,23 +124,3 @@ class FileMonitorShell(cmd.Cmd):
             self.handler.observer.stop()
         print('Merci d\'avoir utilisé l\'interface de commande.')
         return True
-
-def main():
-    parser = argparse.ArgumentParser(description='Gestion des métadonnées de fichiers.')
-    parser.add_argument('--dir', type=str, help='Répertoire à surveiller')
-    parser.add_argument('--reboot', type=str, help='Répertoire(s) pour recréer le fichier CSV')
-    args = parser.parse_args()
-
-    csv_manager = CSVManager()
-
-    if args.reboot:
-        directories = args.reboot.split()
-        reboot_csv(csv_manager, directories)
-        logging.info("Fichier CSV réinitialisé avec les fichiers actuels.")
-
-    if args.dir:
-        shell = FileMonitorShell(csv_manager)
-        shell.cmdloop()
-
-if __name__ == "__main__":
-    main()
