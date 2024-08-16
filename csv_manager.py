@@ -79,3 +79,31 @@ class CSVManager:
                 if row['Pathname'] == file_path:
                     return row
         return None
+
+    def remove_metadata(self, file_path):
+        """
+        Supprime les métadonnées d'un fichier spécifique dans le fichier CSV.
+
+        PRE: 
+        -`file_path` est une chaine représentant le chemin du fichier à supprimer
+
+        POST:
+        -Les métadonnées associées au fichier sont supprimées du CSV si elles existent
+        """
+        rows = []
+        found = False
+        with open(self.csv_path, mode='r', newline='') as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                if row['Pathname'] != file_path:
+                    rows.append(row)
+                else:
+                    found = True
+        
+        if found:
+            with open(self.csv_path, mode='w', newline='') as file:
+                writer = csv.DictWriter(file, fieldnames=['Pathname', 'Name', 'Created Date', 'Modification Date', 'Size'])
+                writer.writeheader()
+                writer.writerows(rows)
+
+

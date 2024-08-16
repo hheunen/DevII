@@ -44,4 +44,3 @@ if __name__ == "__main__":
 
     watcher=WatchdogHandler(path,csv_manager)
     watcher.start()
-   

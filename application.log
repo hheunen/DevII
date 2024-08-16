@@ -1,0 +1,219 @@
+2024-08-16 12:11:43,834 - INFO - Crï¿½ation de file_reader pour le fichier: factures\facture1
+2024-08-16 12:11:43,835 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\facture1
+2024-08-16 12:11:43,835 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\facture1
+2024-08-16 12:11:43,836 - INFO - Crï¿½ation de file_reader pour le fichier: factures\facture1.txt
+2024-08-16 12:11:43,836 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\facture1.txt
+2024-08-16 12:11:43,837 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\facture1.txt
+2024-08-16 12:11:43,837 - INFO - Crï¿½ation de file_reader pour le fichier: factures\facture2
+2024-08-16 12:11:43,839 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\facture2
+2024-08-16 12:11:43,840 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\facture2
+2024-08-16 12:11:43,840 - INFO - Crï¿½ation de file_reader pour le fichier: factures\test 1212.txt
+2024-08-16 12:11:43,841 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\test 1212.txt
+2024-08-16 12:11:43,842 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\test 1212.txt
+2024-08-16 12:22:32,844 - INFO - Crï¿½ation de file_reader pour le fichier: factures\facture1
+2024-08-16 12:22:32,844 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\facture1
+2024-08-16 12:22:32,845 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\facture1
+2024-08-16 12:22:32,845 - INFO - Crï¿½ation de file_reader pour le fichier: factures\facture1.txt
+2024-08-16 12:22:32,845 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\facture1.txt
+2024-08-16 12:22:32,846 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\facture1.txt
+2024-08-16 12:22:32,847 - INFO - Crï¿½ation de file_reader pour le fichier: factures\facture2
+2024-08-16 12:22:32,847 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\facture2
+2024-08-16 12:22:32,848 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\facture2
+2024-08-16 12:22:32,849 - INFO - Crï¿½ation de file_reader pour le fichier: factures\test 1212.txt
+2024-08-16 12:22:32,849 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\test 1212.txt
+2024-08-16 12:22:32,850 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\test 1212.txt
+2024-08-16 12:23:03,531 - INFO - Crï¿½ation de file_reader pour le fichier: factures\test 1212.txt
+2024-08-16 12:23:03,538 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\test 1212.txt
+2024-08-16 12:23:03,539 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\test 1212.txt
+2024-08-16 12:23:03,539 - INFO - File factures\test 1212.txt has been modified and metadata updated
+2024-08-16 12:23:03,539 - INFO - Crï¿½ation de file_reader pour le fichier: factures\test 1212.txt
+2024-08-16 12:23:03,539 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\test 1212.txt
+2024-08-16 12:23:03,544 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\test 1212.txt
+2024-08-16 12:23:03,544 - INFO - File factures\test 1212.txt has been modified and metadata updated
+2024-08-16 12:23:51,077 - INFO - Crï¿½ation de file_reader pour le fichier: factures\test 1212.txt
+2024-08-16 12:24:46,204 - INFO - Crï¿½ation de file_reader pour le fichier: factures\facture2
+2024-08-16 12:24:46,206 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\facture2
+2024-08-16 12:24:46,207 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\facture2
+2024-08-16 12:24:46,207 - INFO - File factures\facture2 has been modified and metadata updated
+2024-08-16 12:24:46,207 - INFO - Crï¿½ation de file_reader pour le fichier: factures\facture2
+2024-08-16 12:24:46,207 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\facture2
+2024-08-16 12:24:46,214 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\facture2
+2024-08-16 12:24:46,214 - INFO - File factures\facture2 has been modified and metadata updated
+2024-08-16 12:26:03,808 - INFO - Crï¿½ation de file_reader pour le fichier: factures\alutdqsdf.txt
+2024-08-16 12:26:03,808 - INFO - File factures\alutdqsdf.txt has been created and metadata added
+2024-08-16 12:26:03,809 - INFO - Crï¿½ation de file_reader pour le fichier: factures\alutdqsdf.txt
+2024-08-16 12:26:03,964 - INFO - Crï¿½ation de file_reader pour le fichier: factures\alutdqsdf.txt
+2024-08-16 12:26:03,965 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\alutdqsdf.txt
+2024-08-16 12:26:03,965 - INFO - Mï¿½tadonnï¿½es enregistrï¿½es pour le fichier: factures\alutdqsdf.txt
+2024-08-16 12:26:03,965 - INFO - File factures\alutdqsdf.txt has been created and metadata added
+2024-08-16 12:26:03,979 - INFO - Crï¿½ation de file_reader pour le fichier: factures\alutdqsdf.txt
+2024-08-16 12:26:03,983 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\alutdqsdf.txt
+2024-08-16 12:26:03,988 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\alutdqsdf.txt
+2024-08-16 12:26:03,988 - INFO - File factures\alutdqsdf.txt has been modified and metadata updated
+2024-08-16 12:26:03,989 - INFO - Crï¿½ation de file_reader pour le fichier: factures\alutdqsdf.txt
+2024-08-16 12:26:03,989 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\alutdqsdf.txt
+2024-08-16 12:26:03,993 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\alutdqsdf.txt
+2024-08-16 12:26:03,993 - INFO - File factures\alutdqsdf.txt has been modified and metadata updated
+2024-08-16 12:34:37,066 - INFO - Crï¿½ation de file_reader pour le fichier: factures\alutdqsdf.txt
+2024-08-16 12:34:37,067 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\alutdqsdf.txt
+2024-08-16 12:34:37,067 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\alutdqsdf.txt
+2024-08-16 12:34:37,067 - INFO - Crï¿½ation de file_reader pour le fichier: factures\facture1
+2024-08-16 12:34:37,068 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\facture1
+2024-08-16 12:34:37,069 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\facture1
+2024-08-16 12:34:37,069 - INFO - Crï¿½ation de file_reader pour le fichier: factures\facture1.txt
+2024-08-16 12:34:37,069 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\facture1.txt
+2024-08-16 12:34:37,070 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\facture1.txt
+2024-08-16 12:34:37,071 - INFO - Crï¿½ation de file_reader pour le fichier: factures\facture2
+2024-08-16 12:34:37,071 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\facture2
+2024-08-16 12:34:37,072 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\facture2
+2024-08-16 12:34:46,015 - INFO - File factures\alutdqsdf.txt has been deleted, removing from CSV.
+2024-08-16 12:35:01,681 - INFO - Crï¿½ation de file_reader pour le fichier: factures\facture2
+2024-08-16 12:35:01,685 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\facture2
+2024-08-16 12:35:01,686 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\facture2
+2024-08-16 12:35:01,686 - INFO - File factures\facture2 has been modified and metadata updated
+2024-08-16 12:35:01,687 - INFO - Crï¿½ation de file_reader pour le fichier: factures\facture2
+2024-08-16 12:35:01,687 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\facture2
+2024-08-16 12:35:01,692 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\facture2
+2024-08-16 12:35:01,692 - INFO - File factures\facture2 has been modified and metadata updated
+2024-08-16 12:35:38,249 - INFO - Crï¿½ation de file_reader pour le fichier: factures\facture1
+2024-08-16 12:35:38,250 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\facture1
+2024-08-16 12:35:38,250 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\facture1
+2024-08-16 12:35:38,251 - INFO - Crï¿½ation de file_reader pour le fichier: factures\facture1.txt
+2024-08-16 12:35:38,251 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\facture1.txt
+2024-08-16 12:35:38,252 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\facture1.txt
+2024-08-16 12:35:38,252 - INFO - Crï¿½ation de file_reader pour le fichier: factures\facture2
+2024-08-16 12:35:38,253 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\facture2
+2024-08-16 12:35:38,254 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\facture2
+2024-08-16 12:35:43,531 - INFO - Crï¿½ation de file_reader pour le fichier: factures\facture2
+2024-08-16 12:35:43,536 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\facture2
+2024-08-16 12:35:43,536 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\facture2
+2024-08-16 12:35:43,537 - INFO - File factures\facture2 has been modified and metadata updated
+2024-08-16 12:35:43,537 - INFO - Crï¿½ation de file_reader pour le fichier: factures\facture2
+2024-08-16 12:35:43,537 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\facture2
+2024-08-16 12:35:43,542 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\facture2
+2024-08-16 12:35:43,542 - INFO - File factures\facture2 has been modified and metadata updated
+2024-08-16 12:35:53,204 - INFO - Crï¿½ation de file_reader pour le fichier: factures\salut.txt
+2024-08-16 12:35:53,204 - INFO - File factures\salut.txt has been created and metadata added
+2024-08-16 12:35:53,204 - INFO - File factures\salut.txt was deleted but not found in CSV.
+2024-08-16 12:35:53,337 - INFO - Crï¿½ation de file_reader pour le fichier: factures\salut.txt
+2024-08-16 12:35:53,338 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\salut.txt
+2024-08-16 12:35:53,338 - INFO - Mï¿½tadonnï¿½es enregistrï¿½es pour le fichier: factures\salut.txt
+2024-08-16 12:35:53,338 - INFO - File factures\salut.txt has been created and metadata added
+2024-08-16 12:35:53,349 - INFO - Crï¿½ation de file_reader pour le fichier: factures\salut.txt
+2024-08-16 12:35:53,354 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\salut.txt
+2024-08-16 12:35:53,358 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\salut.txt
+2024-08-16 12:35:53,359 - INFO - File factures\salut.txt has been modified and metadata updated
+2024-08-16 12:35:53,359 - INFO - Crï¿½ation de file_reader pour le fichier: factures\salut.txt
+2024-08-16 12:35:53,359 - INFO - Mï¿½tadonnï¿½es extraites pour le fichier: factures\salut.txt
+2024-08-16 12:35:53,363 - INFO - Mï¿½tadonnï¿½es mises ï¿½ jour pour le fichier: factures\salut.txt
+2024-08-16 12:35:53,364 - INFO - File factures\salut.txt has been modified and metadata updated
+2024-08-16 12:36:01,875 - INFO - File factures\salut.txt has been deleted, removing from CSV.
+2024-08-16 12:38:35,019 - INFO - Création de file_reader pour le fichier: factures\facture1
+2024-08-16 12:38:35,020 - INFO - Métadonnées extraites pour le fichier: factures\facture1
+2024-08-16 12:38:35,020 - INFO - Métadonnées mises à jour pour le fichier: factures\facture1
+2024-08-16 12:38:35,021 - INFO - Création de file_reader pour le fichier: factures\facture1.txt
+2024-08-16 12:38:35,021 - INFO - Métadonnées extraites pour le fichier: factures\facture1.txt
+2024-08-16 12:38:35,022 - INFO - Métadonnées mises à jour pour le fichier: factures\facture1.txt
+2024-08-16 12:38:35,022 - INFO - Création de file_reader pour le fichier: factures\facture2
+2024-08-16 12:38:35,023 - INFO - Métadonnées extraites pour le fichier: factures\facture2
+2024-08-16 12:38:35,024 - INFO - Métadonnées mises à jour pour le fichier: factures\facture2
+2024-08-16 12:38:45,284 - INFO - Création de file_reader pour le fichier: factures\salut.txt
+2024-08-16 12:38:45,284 - INFO - File factures\salut.txt has been created and metadata added
+2024-08-16 12:38:45,284 - INFO - File factures\salut.txt was deleted but not found in CSV.
+2024-08-16 12:38:45,433 - INFO - Création de file_reader pour le fichier: factures\salut.txt
+2024-08-16 12:38:45,433 - INFO - Métadonnées extraites pour le fichier: factures\salut.txt
+2024-08-16 12:38:45,434 - INFO - Métadonnées enregistrées pour le fichier: factures\salut.txt
+2024-08-16 12:38:45,434 - INFO - File factures\salut.txt has been created and metadata added
+2024-08-16 12:38:45,443 - INFO - Création de file_reader pour le fichier: factures\salut.txt
+2024-08-16 12:38:45,444 - INFO - Métadonnées extraites pour le fichier: factures\salut.txt
+2024-08-16 12:38:45,450 - INFO - Métadonnées mises à jour pour le fichier: factures\salut.txt
+2024-08-16 12:38:45,450 - INFO - File factures\salut.txt has been modified and metadata updated
+2024-08-16 12:38:45,450 - INFO - Création de file_reader pour le fichier: factures\salut.txt
+2024-08-16 12:38:45,450 - INFO - Métadonnées extraites pour le fichier: factures\salut.txt
+2024-08-16 12:38:45,454 - INFO - Métadonnées mises à jour pour le fichier: factures\salut.txt
+2024-08-16 12:38:45,455 - INFO - File factures\salut.txt has been modified and metadata updated
+2024-08-16 12:38:59,297 - INFO - File factures\salut.txt has been deleted, removing from CSV.
+2024-08-16 12:40:09,562 - INFO - Création de file_reader pour le fichier: factures\facture1
+2024-08-16 12:40:09,562 - INFO - Métadonnées extraites pour le fichier: factures\facture1
+2024-08-16 12:40:09,563 - INFO - Métadonnées mises à jour pour le fichier: factures\facture1
+2024-08-16 12:40:09,563 - INFO - Création de file_reader pour le fichier: factures\facture1.txt
+2024-08-16 12:40:09,564 - INFO - Métadonnées extraites pour le fichier: factures\facture1.txt
+2024-08-16 12:40:09,565 - INFO - Métadonnées mises à jour pour le fichier: factures\facture1.txt
+2024-08-16 12:40:09,565 - INFO - Création de file_reader pour le fichier: factures\facture2
+2024-08-16 12:40:09,565 - INFO - Métadonnées extraites pour le fichier: factures\facture2
+2024-08-16 12:40:09,566 - INFO - Métadonnées mises à jour pour le fichier: factures\facture2
+2024-08-16 12:40:55,241 - INFO - Création de file_reader pour le fichier: factures\salut.txt
+2024-08-16 12:40:55,241 - ERROR - Fichier introuvable: factures\salut.txt
+2024-08-16 12:40:55,241 - INFO - File factures\salut.txt has been created and metadata added
+2024-08-16 12:40:55,241 - INFO - File factures\salut.txt was deleted but not found in CSV.
+2024-08-16 12:40:55,385 - INFO - Création de file_reader pour le fichier: factures\salut.txt
+2024-08-16 12:40:55,386 - INFO - Métadonnées extraites pour le fichier: factures\salut.txt
+2024-08-16 12:40:55,386 - INFO - Métadonnées enregistrées pour le fichier: factures\salut.txt
+2024-08-16 12:40:55,386 - INFO - File factures\salut.txt has been created and metadata added
+2024-08-16 12:40:55,396 - INFO - Création de file_reader pour le fichier: factures\salut.txt
+2024-08-16 12:40:55,397 - INFO - Métadonnées extraites pour le fichier: factures\salut.txt
+2024-08-16 12:40:55,402 - INFO - Métadonnées mises à jour pour le fichier: factures\salut.txt
+2024-08-16 12:40:55,402 - INFO - File factures\salut.txt has been modified and metadata updated
+2024-08-16 12:40:55,402 - INFO - Création de file_reader pour le fichier: factures\salut.txt
+2024-08-16 12:40:55,403 - INFO - Métadonnées extraites pour le fichier: factures\salut.txt
+2024-08-16 12:40:55,407 - INFO - Métadonnées mises à jour pour le fichier: factures\salut.txt
+2024-08-16 12:40:55,407 - INFO - File factures\salut.txt has been modified and metadata updated
+2024-08-16 12:43:23,913 - INFO - Création de file_reader pour le fichier: factures\facture1
+2024-08-16 12:43:23,913 - INFO - Métadonnées extraites pour le fichier: factures\facture1
+2024-08-16 12:43:23,914 - INFO - Métadonnées mises à jour pour le fichier: factures\facture1
+2024-08-16 12:43:23,914 - INFO - Création de file_reader pour le fichier: factures\facture1.txt
+2024-08-16 12:43:23,914 - INFO - Métadonnées extraites pour le fichier: factures\facture1.txt
+2024-08-16 12:43:23,915 - INFO - Métadonnées mises à jour pour le fichier: factures\facture1.txt
+2024-08-16 12:43:23,916 - INFO - Création de file_reader pour le fichier: factures\facture2
+2024-08-16 12:43:23,916 - INFO - Métadonnées extraites pour le fichier: factures\facture2
+2024-08-16 12:43:23,917 - INFO - Métadonnées mises à jour pour le fichier: factures\facture2
+2024-08-16 12:43:23,918 - INFO - Création de file_reader pour le fichier: factures\salut.txt
+2024-08-16 12:43:23,918 - INFO - Métadonnées extraites pour le fichier: factures\salut.txt
+2024-08-16 12:43:23,919 - INFO - Métadonnées mises à jour pour le fichier: factures\salut.txt
+2024-08-16 12:43:33,675 - INFO - Création de file_reader pour le fichier: factures\yo.txt
+2024-08-16 12:43:33,675 - INFO - File factures\yo.txt has been created and metadata added
+2024-08-16 12:43:33,675 - INFO - File factures\yo.txt was deleted but not found in CSV.
+2024-08-16 12:43:33,821 - INFO - Création de file_reader pour le fichier: factures\yo.txt
+2024-08-16 12:43:33,821 - INFO - Métadonnées extraites pour le fichier: factures\yo.txt
+2024-08-16 12:43:33,821 - INFO - Métadonnées enregistrées pour le fichier: factures\yo.txt
+2024-08-16 12:43:33,821 - INFO - File factures\yo.txt has been created and metadata added
+2024-08-16 12:43:33,834 - INFO - Création de file_reader pour le fichier: factures\yo.txt
+2024-08-16 12:43:33,835 - INFO - Métadonnées extraites pour le fichier: factures\yo.txt
+2024-08-16 12:43:33,841 - INFO - Métadonnées mises à jour pour le fichier: factures\yo.txt
+2024-08-16 12:43:33,841 - INFO - File factures\yo.txt has been modified and metadata updated
+2024-08-16 12:43:33,841 - INFO - Création de file_reader pour le fichier: factures\yo.txt
+2024-08-16 12:43:33,842 - INFO - Métadonnées extraites pour le fichier: factures\yo.txt
+2024-08-16 12:43:33,846 - INFO - Métadonnées mises à jour pour le fichier: factures\yo.txt
+2024-08-16 12:43:33,846 - INFO - File factures\yo.txt has been modified and metadata updated
+2024-08-16 12:46:36,088 - INFO - Création de file_reader pour le fichier: factures\facture1
+2024-08-16 12:46:36,088 - INFO - Métadonnées extraites pour le fichier: factures\facture1
+2024-08-16 12:46:36,089 - INFO - Métadonnées mises à jour pour le fichier: factures\facture1
+2024-08-16 12:46:36,089 - INFO - Création de file_reader pour le fichier: factures\facture1.txt
+2024-08-16 12:46:36,089 - INFO - Métadonnées extraites pour le fichier: factures\facture1.txt
+2024-08-16 12:46:36,090 - INFO - Métadonnées mises à jour pour le fichier: factures\facture1.txt
+2024-08-16 12:46:36,090 - INFO - Création de file_reader pour le fichier: factures\facture2
+2024-08-16 12:46:36,091 - INFO - Métadonnées extraites pour le fichier: factures\facture2
+2024-08-16 12:46:36,092 - INFO - Métadonnées mises à jour pour le fichier: factures\facture2
+2024-08-16 12:46:36,092 - INFO - Création de file_reader pour le fichier: factures\salut.txt
+2024-08-16 12:46:36,092 - INFO - Métadonnées extraites pour le fichier: factures\salut.txt
+2024-08-16 12:46:36,093 - INFO - Métadonnées mises à jour pour le fichier: factures\salut.txt
+2024-08-16 12:46:36,094 - INFO - Création de file_reader pour le fichier: factures\yo.txt
+2024-08-16 12:46:36,094 - INFO - Métadonnées extraites pour le fichier: factures\yo.txt
+2024-08-16 12:46:36,095 - INFO - Métadonnées mises à jour pour le fichier: factures\yo.txt
+2024-08-16 12:46:48,217 - INFO - Création de file_reader pour le fichier: factures\test.txt
+2024-08-16 12:46:48,218 - ERROR - Fichier introuvable: factures\test.txt
+2024-08-16 12:46:48,218 - INFO - File factures\test.txt has been created and metadata added.
+2024-08-16 12:46:48,218 - INFO - File factures\test.txt was deleted but not found in CSV.
+2024-08-16 12:46:48,363 - INFO - Création de file_reader pour le fichier: factures\test.txt
+2024-08-16 12:46:48,363 - INFO - Métadonnées extraites pour le fichier: factures\test.txt
+2024-08-16 12:46:48,364 - INFO - Métadonnées enregistrées pour le fichier: factures\test.txt
+2024-08-16 12:46:48,364 - INFO - File factures\test.txt has been created and metadata added.
+2024-08-16 12:46:48,374 - INFO - Création de file_reader pour le fichier: factures\test.txt
+2024-08-16 12:46:48,375 - INFO - Métadonnées extraites pour le fichier: factures\test.txt
+2024-08-16 12:46:48,380 - INFO - Métadonnées mises à jour pour le fichier: factures\test.txt
+2024-08-16 12:46:48,380 - INFO - File factures\test.txt has been modified and metadata updated.
+2024-08-16 12:46:48,380 - INFO - Création de file_reader pour le fichier: factures\test.txt
+2024-08-16 12:46:48,381 - INFO - Métadonnées extraites pour le fichier: factures\test.txt
+2024-08-16 12:46:48,385 - INFO - Métadonnées mises à jour pour le fichier: factures\test.txt
+2024-08-16 12:46:48,385 - INFO - File factures\test.txt has been modified and metadata updated.
+2024-08-16 12:46:53,694 - INFO - File factures\test.txt has been deleted and removed from CSV.
