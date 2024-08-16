@@ -37,9 +37,11 @@ if __name__ == "__main__":
     cls()   #Efface la console
 
     path='factures'
+    csv_path = 'data/metadata.csv'  # Chemin vers votre fichier CSV
+    csv_manager = CSVManager(csv_path)
     test1(path)
 
 
-    watcher=WatchdogHandler(path)
+    watcher=WatchdogHandler(path,csv_manager)
     watcher.start()
    
