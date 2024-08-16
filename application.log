@@ -217,3 +217,80 @@
 2024-08-16 12:46:48,385 - INFO - Métadonnées mises à jour pour le fichier: factures\test.txt
 2024-08-16 12:46:48,385 - INFO - File factures\test.txt has been modified and metadata updated.
 2024-08-16 12:46:53,694 - INFO - File factures\test.txt has been deleted and removed from CSV.
+2024-08-16 14:42:38,799 - INFO - Creation de file_reader pour le fichier: factures\facture1
+2024-08-16 14:42:38,800 - INFO - Metadonnees extraites pour le fichier: factures\facture1
+2024-08-16 14:42:38,805 - INFO - Metadonnees mises a jour pour le fichier: factures\facture1
+2024-08-16 14:42:38,805 - INFO - Creation de file_reader pour le fichier: factures\facture1.txt
+2024-08-16 14:42:38,809 - INFO - Metadonnees extraites pour le fichier: factures\facture1.txt
+2024-08-16 14:42:38,813 - INFO - Metadonnees mises a jour pour le fichier: factures\facture1.txt
+2024-08-16 14:42:38,813 - INFO - Creation de file_reader pour le fichier: factures\facture2
+2024-08-16 14:42:38,816 - INFO - Metadonnees extraites pour le fichier: factures\facture2
+2024-08-16 14:42:38,820 - INFO - Metadonnees mises a jour pour le fichier: factures\facture2
+2024-08-16 14:42:38,820 - INFO - Creation de file_reader pour le fichier: factures\salut.txt
+2024-08-16 14:42:38,820 - INFO - Metadonnees extraites pour le fichier: factures\salut.txt
+2024-08-16 14:42:38,825 - INFO - Metadonnees mises a jour pour le fichier: factures\salut.txt
+2024-08-16 14:42:38,825 - INFO - Creation de file_reader pour le fichier: factures\yo.txt
+2024-08-16 14:42:38,825 - INFO - Metadonnees extraites pour le fichier: factures\yo.txt
+2024-08-16 14:42:38,830 - INFO - Metadonnees mises a jour pour le fichier: factures\yo.txt
+2024-08-16 14:42:49,593 - INFO - Creation de file_reader pour le fichier: factures\fqsdf.txt
+2024-08-16 14:42:49,593 - ERROR - Fichier introuvable: factures\fqsdf.txt
+2024-08-16 14:42:49,593 - INFO - File factures\fqsdf.txt has been created and metadata added
+2024-08-16 14:42:49,598 - INFO - File factures\fqsdf.txt was deleted but not found in CSV.
+2024-08-16 14:42:49,772 - INFO - Creation de file_reader pour le fichier: factures\fqsdf.txt
+2024-08-16 14:42:49,773 - INFO - Metadonnees extraites pour le fichier: factures\fqsdf.txt
+2024-08-16 14:42:49,773 - INFO - Metadonnees enregistrees pour le fichier: factures\fqsdf.txt
+2024-08-16 14:42:49,773 - INFO - File factures\fqsdf.txt has been created and metadata added
+2024-08-16 14:42:49,791 - INFO - Creation de file_reader pour le fichier: factures\fqsdf.txt
+2024-08-16 14:42:49,795 - INFO - Metadonnees extraites pour le fichier: factures\fqsdf.txt
+2024-08-16 14:42:49,801 - INFO - Metadonnees mises a jour pour le fichier: factures\fqsdf.txt
+2024-08-16 14:42:49,801 - INFO - File factures\fqsdf.txt has been modified and metadata updated
+2024-08-16 14:42:49,802 - INFO - Creation de file_reader pour le fichier: factures\fqsdf.txt
+2024-08-16 14:42:49,802 - INFO - Metadonnees extraites pour le fichier: factures\fqsdf.txt
+2024-08-16 14:42:49,806 - INFO - Metadonnees mises a jour pour le fichier: factures\fqsdf.txt
+2024-08-16 14:42:49,806 - INFO - File factures\fqsdf.txt has been modified and metadata updated
+2024-08-16 14:42:57,839 - INFO - Creation de file_reader pour le fichier: factures\fqsdf.txt
+2024-08-16 14:42:57,845 - INFO - Metadonnees extraites pour le fichier: factures\fqsdf.txt
+2024-08-16 14:42:57,846 - INFO - Metadonnees mises a jour pour le fichier: factures\fqsdf.txt
+2024-08-16 14:42:57,846 - INFO - File factures\fqsdf.txt has been modified and metadata updated
+2024-08-16 14:42:57,846 - INFO - Creation de file_reader pour le fichier: factures\fqsdf.txt
+2024-08-16 14:42:57,847 - INFO - Metadonnees extraites pour le fichier: factures\fqsdf.txt
+2024-08-16 14:42:57,851 - INFO - Metadonnees mises a jour pour le fichier: factures\fqsdf.txt
+2024-08-16 14:42:57,851 - INFO - File factures\fqsdf.txt has been modified and metadata updated
+2024-08-16 14:43:12,050 - INFO - File factures\yo.txt has been deleted, removing from CSV.
+2024-08-16 14:43:26,853 - INFO - File factures\salut.txt has been deleted, removing from CSV.
+2024-08-16 14:46:31,327 - INFO - Fichier CSV supprimé: data/metadata.csv
+2024-08-16 14:46:31,329 - INFO - Metadonnees sauvegardees pour le fichier: factures\facture1
+2024-08-16 14:46:31,329 - INFO - Metadonnees sauvegardees pour le fichier: factures\facture1.txt
+2024-08-16 14:46:31,329 - INFO - Metadonnees sauvegardees pour le fichier: factures\facture2
+2024-08-16 14:46:31,329 - INFO - Metadonnees sauvegardees pour le fichier: factures\fqsdf.txt
+2024-08-16 14:48:02,784 - INFO - Fichier CSV supprimé: data/metadata.csv
+2024-08-16 14:51:52,622 - INFO - Creation de file_reader pour le fichier: factures\fqsdf.txt
+2024-08-16 14:51:52,622 - INFO - Creation de file_reader pour le fichier: factures\fqsdf.txt
+2024-08-16 14:51:52,629 - INFO - Metadonnees extraites pour le fichier: factures\fqsdf.txt
+2024-08-16 14:51:52,630 - INFO - Metadonnees enregistrees pour le fichier: factures\fqsdf.txt
+2024-08-16 14:51:52,630 - INFO - Metadonnees enregistrees pour le fichier: factures\fqsdf.txt
+2024-08-16 14:51:52,630 - INFO - File factures\fqsdf.txt has been modified and metadata updated
+2024-08-16 14:51:52,630 - INFO - File factures\fqsdf.txt has been modified and metadata updated
+2024-08-16 14:51:52,630 - INFO - Creation de file_reader pour le fichier: factures\fqsdf.txt
+2024-08-16 14:51:52,630 - INFO - Creation de file_reader pour le fichier: factures\fqsdf.txt
+2024-08-16 14:51:52,630 - INFO - Metadonnees extraites pour le fichier: factures\fqsdf.txt
+2024-08-16 14:51:52,630 - INFO - Metadonnees extraites pour le fichier: factures\fqsdf.txt
+2024-08-16 14:51:52,635 - INFO - Metadonnees mises a jour pour le fichier: factures\fqsdf.txt
+2024-08-16 14:51:52,635 - INFO - Metadonnees mises a jour pour le fichier: factures\fqsdf.txt
+2024-08-16 14:51:52,635 - INFO - File factures\fqsdf.txt has been modified and metadata updated
+2024-08-16 14:51:52,635 - INFO - File factures\fqsdf.txt has been modified and metadata updated
+2024-08-16 14:52:22,516 - INFO - Creation de file_reader pour le fichier: factures\facture1
+2024-08-16 14:52:22,523 - INFO - Metadonnees extraites pour le fichier: factures\facture1
+2024-08-16 14:52:22,524 - INFO - Metadonnees enregistrees pour le fichier: factures\facture1
+2024-08-16 14:52:22,524 - INFO - Metadonnees enregistrees pour le fichier: factures\facture1
+2024-08-16 14:52:22,524 - INFO - File factures\facture1 has been modified and metadata updated
+2024-08-16 14:52:22,524 - INFO - File factures\facture1 has been modified and metadata updated
+2024-08-16 14:52:22,524 - INFO - Creation de file_reader pour le fichier: factures\facture1
+2024-08-16 14:52:22,524 - INFO - Creation de file_reader pour le fichier: factures\facture1
+2024-08-16 14:52:22,525 - INFO - Metadonnees extraites pour le fichier: factures\facture1
+2024-08-16 14:52:22,531 - INFO - Metadonnees mises a jour pour le fichier: factures\facture1
+2024-08-16 14:52:22,531 - INFO - Metadonnees mises a jour pour le fichier: factures\facture1
+
+2024-08-16 14:52:22,531 - INFO - File factures\facture1 has been modified and metadata updated
+2024-08-16 14:52:30,437 - INFO - File factures\fqsdf.txt has been deleted, removing from CSV.
+2024-08-16 14:52:54,298 - INFO - Fichier CSV supprimé: data/metadata.csv
