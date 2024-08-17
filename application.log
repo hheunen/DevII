@@ -336,3 +336,139 @@
 2024-08-16 18:51:10,303 - INFO - Metadonnees mises a jour pour le fichier: factures\azfrf.txt
 2024-08-16 18:51:10,303 - INFO - File factures\azfrf.txt has been modified and metadata updated
 2024-08-16 18:51:17,682 - INFO - File factures\azfrf.txt has been deleted, removing from CSV.
+2024-08-16 19:17:39,562 - INFO - Creation de file_reader pour le fichier: invalid_file.txt
+2024-08-16 19:17:39,565 - ERROR - Fichier introuvable lors de l extraction des metadonnees: invalid_file.txt
+2024-08-16 19:17:39,567 - INFO - Creation de file_reader pour le fichier: test_file.txt
+2024-08-16 19:17:39,573 - INFO - Metadonnees extraites pour le fichier: test_file.txt
+2024-08-16 19:17:39,580 - INFO - Metadonnees enregistrees pour le fichier: test_file.txt
+2024-08-16 19:17:39,580 - INFO - Metadonnees extraites pour le fichier: test_file.txt
+2024-08-16 19:17:39,582 - INFO - Creation de file_reader pour le fichier: invalid_file.txt
+2024-08-16 19:17:39,582 - ERROR - Fichier introuvable: invalid_file.txt
+2024-08-16 19:17:39,585 - INFO - Creation de file_reader pour le fichier: test_file.txt
+2024-08-16 19:17:39,587 - INFO - Metadonnees extraites pour le fichier: test_file.txt
+2024-08-16 19:17:39,597 - INFO - Metadonnees mises a jour pour le fichier: test_file.txt
+2024-08-16 19:22:52,081 - INFO - Creation de file_reader pour le fichier: test_file.txt
+2024-08-16 19:22:52,091 - INFO - Creation de file_reader pour le fichier: test_file.txt
+2024-08-16 19:22:52,092 - ERROR - Fichier introuvable lors de l extraction des metadonnees: test_file.txt
+2024-08-16 19:22:55,147 - INFO - Creation de file_reader pour le fichier: test_file.txt
+2024-08-16 19:22:55,156 - INFO - Creation de file_reader pour le fichier: test_file.txt
+2024-08-16 19:22:55,157 - ERROR - Fichier introuvable lors de l extraction des metadonnees: test_file.txt
+2024-08-16 19:24:09,518 - INFO - Creation de file_reader pour le fichier: test_file.txt
+2024-08-16 19:24:09,528 - INFO - Creation de file_reader pour le fichier: test_file.txt
+2024-08-16 19:24:09,529 - ERROR - Fichier introuvable lors de l extraction des metadonnees: test_file.txt
+2024-08-16 19:24:09,532 - INFO - Creation de file_reader pour le fichier: test_file.txt
+2024-08-16 19:24:09,532 - ERROR - Fichier introuvable: test_file.txt
+2024-08-16 19:24:09,532 - INFO - File test_file.txt has been created and metadata added
+2024-08-16 19:24:09,551 - INFO - Creation de file_reader pour le fichier: test_file.txt
+2024-08-16 19:24:09,551 - ERROR - Fichier introuvable: test_file.txt
+2024-08-16 19:24:09,552 - INFO - File test_file.txt has been modified and metadata updated
+2024-08-16 19:24:24,014 - INFO - Creation de file_reader pour le fichier: test_file.txt
+2024-08-16 19:24:24,022 - INFO - Creation de file_reader pour le fichier: test_file.txt
+2024-08-16 19:24:24,023 - ERROR - Fichier introuvable lors de l extraction des metadonnees: test_file.txt
+2024-08-16 19:24:24,027 - INFO - Creation de file_reader pour le fichier: test_file.txt
+2024-08-16 19:24:24,027 - ERROR - Fichier introuvable: test_file.txt
+2024-08-16 19:24:24,028 - INFO - File test_file.txt has been created and metadata added
+2024-08-16 19:24:24,036 - INFO - Creation de file_reader pour le fichier: test_file.txt
+2024-08-16 19:24:24,036 - ERROR - Fichier introuvable: test_file.txt
+2024-08-16 19:24:24,036 - INFO - File test_file.txt has been modified and metadata updated
+2024-08-16 19:26:40,503 - INFO - Creation de file_reader pour le fichier: test_file.txt
+2024-08-16 19:26:40,511 - INFO - Creation de file_reader pour le fichier: test_file.txt
+2024-08-16 19:26:40,511 - ERROR - Fichier introuvable lors de l extraction des metadonnees: test_file.txt
+2024-08-16 19:26:40,518 - INFO - Creation de file_reader pour le fichier: test_file.txt
+2024-08-16 19:26:40,519 - ERROR - Fichier introuvable: test_file.txt
+2024-08-16 19:26:40,519 - INFO - File test_file.txt has been created and metadata added
+2024-08-16 19:26:40,530 - INFO - Creation de file_reader pour le fichier: test_file.txt
+2024-08-16 19:26:40,530 - ERROR - Fichier introuvable: test_file.txt
+2024-08-16 19:26:40,530 - INFO - File test_file.txt has been modified and metadata updated
+2024-08-16 19:27:58,910 - INFO - Creation de file_reader pour le fichier: factures/facture1.txt
+2024-08-16 19:27:58,920 - INFO - Creation de file_reader pour le fichier: factures/facture1.txt
+2024-08-16 19:27:58,921 - INFO - Metadonnees extraites pour le fichier: factures/facture1.txt
+2024-08-16 19:27:58,922 - INFO - Metadonnees mises a jour pour le fichier: factures/facture1.txt
+2024-08-16 19:27:58,926 - INFO - Creation de file_reader pour le fichier: factures/facture1.txt
+2024-08-16 19:27:58,931 - INFO - Metadonnees extraites pour le fichier: factures/facture1.txt
+2024-08-16 19:27:58,932 - INFO - Metadonnees enregistrees pour le fichier: factures/facture1.txt
+2024-08-16 19:27:58,932 - INFO - File factures/facture1.txt has been created and metadata added
+2024-08-16 19:27:58,949 - INFO - Creation de file_reader pour le fichier: factures/facture1.txt
+2024-08-16 19:27:58,950 - INFO - Metadonnees extraites pour le fichier: factures/facture1.txt
+2024-08-16 19:27:58,951 - INFO - Metadonnees enregistrees pour le fichier: factures/facture1.txt
+2024-08-16 19:27:58,951 - INFO - File factures/facture1.txt has been modified and metadata updated
+2024-08-16 19:34:01,192 - INFO - Creation de file_reader pour le fichier: factures/facture1.txt
+2024-08-16 19:34:01,193 - INFO - Metadonnees extraites pour le fichier: factures/facture1.txt
+2024-08-16 19:34:01,196 - INFO - Metadonnees mises a jour pour le fichier: factures/facture1.txt
+2024-08-16 19:34:01,200 - INFO - Creation de file_reader pour le fichier: factures/facture1.txt
+2024-08-16 19:34:01,201 - INFO - Metadonnees extraites pour le fichier: factures/facture1.txt
+2024-08-16 19:34:01,203 - INFO - Metadonnees mises a jour pour le fichier: factures/facture1.txt
+2024-08-16 19:34:01,219 - INFO - Creation de file_reader pour le fichier: factures/facture1.txt
+2024-08-16 19:34:01,219 - INFO - Metadonnees extraites pour le fichier: factures/facture1.txt
+2024-08-16 19:34:01,222 - INFO - Metadonnees mises a jour pour le fichier: factures/facture1.txt
+2024-08-16 19:34:01,222 - INFO - File factures/facture1.txt has been created and metadata added
+2024-08-16 19:34:01,242 - INFO - Creation de file_reader pour le fichier: factures/facture1.txt
+2024-08-16 19:34:01,243 - INFO - Metadonnees extraites pour le fichier: factures/facture1.txt
+2024-08-16 19:34:01,246 - INFO - Metadonnees enregistrees pour le fichier: factures/facture1.txt
+2024-08-16 19:34:01,246 - INFO - File factures/facture1.txt has been modified and metadata updated
+2024-08-16 19:35:03,083 - INFO - Creation de file_reader pour le fichier: factures/facture1.txt
+2024-08-16 19:35:03,083 - INFO - Metadonnees extraites pour le fichier: factures/facture1.txt
+2024-08-16 19:35:03,086 - INFO - Metadonnees mises a jour pour le fichier: factures/facture1.txt
+2024-08-16 19:35:03,090 - INFO - Creation de file_reader pour le fichier: factures/facture1.txt
+2024-08-16 19:35:03,091 - INFO - Metadonnees extraites pour le fichier: factures/facture1.txt
+2024-08-16 19:35:03,092 - INFO - Metadonnees mises a jour pour le fichier: factures/facture1.txt
+2024-08-16 19:38:31,637 - INFO - Creation de file_reader pour le fichier: factures\Nouveau Document texte.txt
+2024-08-16 19:38:31,640 - ERROR - Erreur d'ouverture du fichier: factures\Nouveau Document texte.txt
+2024-08-16 19:38:31,640 - INFO - File factures\Nouveau Document texte.txt has been created and metadata added
+2024-08-16 19:39:00,612 - INFO - Creation de file_reader pour le fichier: factures\bonjour.txt
+2024-08-16 19:39:00,613 - INFO - Metadonnees extraites pour le fichier: factures\bonjour.txt
+2024-08-16 19:39:00,614 - INFO - Metadonnees enregistrees pour le fichier: factures\bonjour.txt
+2024-08-16 19:39:00,614 - INFO - File factures\bonjour.txt has been modified and metadata updated
+2024-08-16 19:39:31,227 - INFO - Creation de file_reader pour le fichier: factures\bonjour.txt
+2024-08-16 19:39:31,233 - INFO - Metadonnees extraites pour le fichier: factures\bonjour.txt
+2024-08-16 19:39:31,234 - INFO - Metadonnees mises a jour pour le fichier: factures\bonjour.txt
+2024-08-16 19:39:31,235 - INFO - File factures\bonjour.txt has been modified and metadata updated
+2024-08-16 19:39:44,122 - INFO - File factures\bonjour.txt has been deleted, removing from CSV.
+2024-08-16 19:43:00,946 - INFO - Creation de file_reader pour le fichier: factures\Nouveau Document texte.txt
+2024-08-16 19:43:00,947 - INFO - Metadonnees extraites pour le fichier: factures\Nouveau Document texte.txt
+2024-08-16 19:43:00,947 - INFO - Metadonnees enregistrees pour le fichier: factures\Nouveau Document texte.txt
+2024-08-16 19:43:00,947 - INFO - File factures\Nouveau Document texte.txt has been created and metadata added
+2024-08-16 19:43:55,806 - INFO - Creation de file_reader pour le fichier: factures\facture3.txt
+2024-08-16 19:43:55,807 - INFO - Metadonnees extraites pour le fichier: factures\facture3.txt
+2024-08-16 19:43:55,808 - INFO - Metadonnees enregistrees pour le fichier: factures\facture3.txt
+2024-08-16 19:43:55,808 - INFO - File factures\facture3.txt has been modified and metadata updated
+2024-08-16 19:45:15,454 - INFO - Creation de file_reader pour le fichier: factures\Nouveau Document texte.txt
+2024-08-16 19:45:15,456 - INFO - Metadonnees extraites pour le fichier: factures\Nouveau Document texte.txt
+2024-08-16 19:45:15,457 - INFO - Metadonnees enregistrees pour le fichier: factures\Nouveau Document texte.txt
+2024-08-16 19:45:15,457 - INFO - File factures\Nouveau Document texte.txt has been created and metadata added
+2024-08-16 19:45:22,923 - INFO - Creation de file_reader pour le fichier: factures\facutre3.txt
+2024-08-16 19:45:22,924 - INFO - Metadonnees extraites pour le fichier: factures\facutre3.txt
+2024-08-16 19:45:22,925 - INFO - Metadonnees enregistrees pour le fichier: factures\facutre3.txt
+2024-08-16 19:45:22,925 - INFO - File factures\facutre3.txt has been modified and metadata updated
+2024-08-16 19:45:36,276 - INFO - File factures\facutre3.txt has been deleted, removing from CSV.
+2024-08-16 19:46:45,596 - INFO - Creation de file_reader pour le fichier: factures\facture3
+2024-08-16 19:46:45,597 - INFO - Metadonnees extraites pour le fichier: factures\facture3
+2024-08-16 19:46:45,597 - INFO - Metadonnees enregistrees pour le fichier: factures\facture3
+2024-08-16 19:46:45,598 - INFO - File factures\facture3 has been created and metadata added
+2024-08-16 19:46:59,704 - INFO - Creation de file_reader pour le fichier: factures\facture3
+2024-08-16 19:46:59,709 - INFO - Metadonnees extraites pour le fichier: factures\facture3
+2024-08-16 19:46:59,710 - INFO - Metadonnees mises a jour pour le fichier: factures\facture3
+2024-08-16 19:46:59,710 - INFO - File factures\facture3 has been modified and metadata updated
+2024-08-16 19:47:06,229 - INFO - File factures\facture3 has been deleted, removing from CSV.
+2024-08-16 19:50:07,711 - INFO - Creation de file_reader pour le fichier: factures/facture1.txt
+2024-08-16 19:50:07,712 - INFO - Metadonnees extraites pour le fichier: factures/facture1.txt
+2024-08-16 19:50:07,713 - INFO - Metadonnees mises a jour pour le fichier: factures/facture1.txt
+2024-08-16 19:50:07,718 - INFO - Creation de file_reader pour le fichier: factures/facture1.txt
+2024-08-16 19:50:07,719 - INFO - Metadonnees extraites pour le fichier: factures/facture1.txt
+2024-08-16 19:50:07,721 - INFO - Metadonnees mises a jour pour le fichier: factures/facture1.txt
+2024-08-17 07:28:47,075 - INFO - Creation de FileReader pour le fichier: factures\fdqsfq
+2024-08-17 07:28:47,075 - INFO - Metadonnees extraites pour le fichier: factures\fdqsfq
+2024-08-17 07:28:47,077 - INFO - Metadonnees enregistrees pour le fichier: factures\fdqsfq
+2024-08-17 07:28:47,077 - INFO - File factures\fdqsfq has been created and metadata added
+2024-08-17 07:28:56,170 - INFO - File factures\fdqsfq has been deleted, removing from CSV.
+2024-08-17 08:43:00,567 - INFO - Creation de FileReader pour le fichier: invalid_file.txt
+2024-08-17 08:43:00,570 - ERROR - Fichier introuvable lors de l extraction des metadonnees: invalid_file.txt
+2024-08-17 08:43:00,572 - INFO - Creation de FileReader pour le fichier: test_file.txt
+2024-08-17 08:43:00,577 - INFO - Metadonnees extraites pour le fichier: test_file.txt
+2024-08-17 08:43:00,578 - INFO - Metadonnees enregistrees pour le fichier: test_file.txt
+2024-08-17 08:43:00,578 - INFO - Metadonnees extraites pour le fichier: test_file.txt
+2024-08-17 08:43:00,579 - INFO - Creation de FileReader pour le fichier: invalid_file.txt
+2024-08-17 08:43:00,580 - ERROR - Fichier introuvable: invalid_file.txt
+2024-08-17 08:43:00,582 - INFO - Creation de FileReader pour le fichier: test_file.txt
+2024-08-17 08:43:00,584 - INFO - Metadonnees extraites pour le fichier: test_file.txt
+2024-08-17 08:43:00,591 - INFO - Metadonnees mises a jour pour le fichier: test_file.txt

@@ -8,7 +8,7 @@ import cmd
 from datetime import datetime
 from csv_manager import CSVManager
 from metadata import Metadata
-from file_reader import file_reader
+from file_reader import FileReader
 
 logging.basicConfig(
     filename='application.log', 
@@ -41,7 +41,7 @@ class WatchdogHandler(FileSystemEventHandler):
 
     def on_modified(self, event):
         if not event.is_directory:
-            file = file_reader(event.src_path)
+            file = FileReader(event.src_path)
             file.open_file()
             metadata = file.metadata
             logging.info(f'File {event.src_path} has been modified and metadata updated')            
@@ -49,7 +49,7 @@ class WatchdogHandler(FileSystemEventHandler):
 
     def on_created(self, event):
         if not event.is_directory:
-            file = file_reader(event.src_path)
+            file = FileReader(event.src_path)
             file.open_file()
             metadata = file.metadata
             logging.info(f'File {event.src_path} has been created and metadata added')  

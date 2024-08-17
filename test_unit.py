@@ -4,7 +4,7 @@ import os
 from metadata import Metadata
 from csv_manager import CSVManager
 from datetime import datetime
-from file_reader import file_reader
+from file_reader import FileReader
 from unittest.mock import patch, MagicMock   #Créer des objets fictifs
 
 class TestCSVManager(unittest.TestCase):
@@ -114,7 +114,7 @@ class TestFileReader(unittest.TestCase):
 #Vérifie si un fichier valide peut être ouvert et ses métadonnées extraites correctement
     def test_open_file_valid(self):
         """Test si un fichier valide peut être ouvert."""
-        reader = file_reader(self.valid_file)
+        reader = FileReader(self.valid_file)
         reader.open_file()
         self.assertTrue(reader.file_state)
         self.assertIsInstance(reader.metadata, Metadata)
@@ -123,7 +123,7 @@ class TestFileReader(unittest.TestCase):
 #Vérifie la gestion des erreurs lors de l'ouverture d'un fichier inexistant
     def test_open_file_invalid(self):
         """Test la gestion des erreurs lors de l'ouverture d'un fichier inexistant."""
-        reader = file_reader(self.invalid_file)
+        reader = FileReader(self.invalid_file)
         with patch('builtins.print') as mocked_print:
             reader.open_file()
             mocked_print.assert_called_with(f"Erreur : Le fichier '{self.invalid_file}' est introuvable.")
@@ -133,7 +133,7 @@ class TestFileReader(unittest.TestCase):
 #Vérifie si les métadonnées sont extraites correctement d'un fichier valide
     def test_extract_metadata_valid(self):
         """Test l'extraction des métadonnées pour un fichier valide."""
-        reader = file_reader(self.valid_file)
+        reader = FileReader(self.valid_file)
         reader.open_file()
         reader.extract_metadata()
 
@@ -143,7 +143,7 @@ class TestFileReader(unittest.TestCase):
 #Vérifie la gestion des erreurs lors de l'extraction des métadonnées d'un fichier inexistant
     def test_extract_metadata_invalid(self):
         """Test la gestion des erreurs lors de l'extraction des métadonnées d'un fichier inexistant."""
-        reader = file_reader(self.invalid_file)
+        reader = FileReader(self.invalid_file)
         reader.file_state = True  # Simule un fichier ouvert
         with patch('builtins.print') as mocked_print:
             reader.extract_metadata()

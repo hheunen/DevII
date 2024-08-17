@@ -10,17 +10,17 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',  # Date, type , message
 )
 
-class file_reader:
+class FileReader:
 
     def __init__(self, file_path, csv_manager=None):
         """
-        Initialise une instance de file_reader pour lire et extraire les métadonnées d'un fichier
+        Initialise une instance de FileReader pour lire et extraire les métadonnées d'un fichier
 
         PRE:
         - `file_path` est une chaîne représentant le chemin complet du fichier à lire
 
         POST:
-        - Les attributs de l'objet file_reader sont initialisés, mais le fichier n'est pas encore ouvert
+        - Les attributs de l'objet FileReader sont initialisés, mais le fichier n'est pas encore ouvert
         """
 
         self.file_path = file_path
@@ -28,7 +28,7 @@ class file_reader:
         self.metadata= None
         self.file_content = None
         self.csv_manager = csv_manager or CSVManager()
-        logging.info(f"Creation de file_reader pour le fichier: {file_path}")
+        logging.info(f"Creation de FileReader pour le fichier: {file_path}")
 
     
     

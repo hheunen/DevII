@@ -1,0 +1,54 @@
+// Class Diagram for File Management System
+digraph {
+	A [label="CSVManager
+- csv_path
++ __init__()
++ write_metadata()
++ update_metadata()
++ find_metadata()
++ remove_metadata()"]
+	B [label="FileReader
+- file_path
+- file_state
+- metadata
+- file_content
++ __init__()
++ open_file()
++ extract_metadata()"]
+	C [label="Metadata
+- file_path
+- name
+- created_date
+- modification_date
+- size
++ __init__()
++ from_filepath()
++ save_to_csv()
++ update_in_csv()"]
+	D [label="Repertory
+- path
+- file_path_list
++ __init__()
++ read_directory()"]
+	E [label="WatchdogHandler
+- path
+- observer
+- csv_manager
++ __init__()
++ start()
++ on_modified()
++ on_created()
++ on_deleted()"]
+	F [label="FileMonitorShell
+- csv_manager
+- handler
++ __init__()
++ do_start()
++ do_reboot()
++ do_exit()"]
+	B -> A [label=uses]
+	B -> C [label=uses]
+	E -> A [label=uses]
+	F -> E [label=uses]
+	F -> A [label=uses]
+}
